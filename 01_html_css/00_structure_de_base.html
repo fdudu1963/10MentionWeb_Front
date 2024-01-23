@@ -1,0 +1,56 @@
+<!--Ceci est un commentaire-->
+<!DOCTYPE html>
+    <!--
+        La balise DOCTYPE est la première balise obligatoire dans une page HTML, elle indique essentiellement à l'ordinateur qu'il s'agit d'un document HTML. C'est également une instruction pour le navigateur web concernant la version du langage de balisage utilisée pour la page. 
+        Pour HTML4 : <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    -->
+<html lang="fr">
+    <!--
+         La balise html désigne le début de la page - C'est une balise obligatoire.
+         <hmtl> c'est la balise racine du document HTML. Elle englobe tout le contenu de la page web.
+        L'attribut "lang" dont la valeur est "fr" désigne la langue principale dans laquelle est rédigé le contenu de la page : le français utilisé coté utilisateur.
+            -> Important pour l'accessibilité -> il est recommandé d'inclure cette déclaration pour garantir une meilleure accessibilité, compréhention et une interprétation correcte de la page par l'utilisateur et les systèmes automatisés.
+        Lorsque l'on donne une valeur "zxx", on utilise cette abréviation essentiellement en Lorem Ipsum (texte en latin de remplissage qui ne veut rien dire)
+     -->
+
+<head>
+    
+    <!--
+         Elément d'en-tête, la balise head regroupe toutes les méta-infotrmations et contient les paramètres d'en-tête de ma page html qui sont invisibles pour l'internaute.
+
+         Les méta sont sont des balises qui fournissent des méta_données au navigateur et moteur de recherche; c'est à dire des informations au sujet du document HTML en question. Ils existent de très nombreuses balises méta et nous allons pouvoir ajouter différents attributs à l'élément qui vont nous servir à spécifier différents types de données.
+
+         Les attributs les plus courants de l'élément méta vont être les attributs : charset - name - content
+            -> l'attribut charset sert à indiquer le jeu de caractère ou l'encodage des caractéres de notre document y compris ceux de différentes langues (afficher les caractères spéciaux tels que les accents, les cédilles, etc.)
+            -> l'attribut name vas nous permettre d'indiquer le type de métadonnées que l'on souhaite passer.
+            -> L'attribut content va nous permettre de passer une métadonnée en soi.
+    -->   
+    <meta charset="utf-8"> <!--Il est recommandé de placer l'attribut charset au tout début de la balise head, surtout avant la balise title, car cette dernière peut déjà être concerné par l'encodage des caractères. Une seule valeur cependant devrait être utilisée aujourd'hui autant que possible : utf-8-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!--
+        le viewport représente la partie visible d'une page web par un utilisateur.
+         La taille de cette fenêtre va bien evidemment varier en fonction de la taille de l'écran de l'utilisateur et de l'appareil utilisé.
+        "width=device-width, initial-scale=1.0" : contrôler l amise en page et l'apparence initiale de la page sur les navigations mobiles.
+            1 - width=device-width : ajuster la largeur de la page en fonction de la largeur de l'appareil.
+            2 - initial-scale=1.0 : le niveau de zoom initial lorsque la page est chargée pour la première fois par le navigateur, signifie qu'il n'y a pas de zoom.
+    -->
+
+    <title> Ma première page HTML - structure de base de la page HTML</title>
+    <!--
+        Le titre du document HTML. Cette balise est obligatoire. Le contenu de cet élément n'apparait pas directement dans le page mais :
+            1 - sur l'onglet du navigateur (la barre de titre du navigateur web),
+            2 - comme titre de marque-pages (favoris),
+            3 - par les moteurs de recherche comme titre de résultat de recherche.
+    -->
+
+</head> <!-- Fin de la balise HEAD-->
+<body> <!-- Début de la balise HEAD - Partie visible de la page web dans le navigateur-->
+
+    Page test
+
+    <!-- Tout ce qui sera affiché sur la page s'écrit à l'intérieur de la balise body : le corps du document-->
+
+</body> <!-- Fin de la balise body : /!\ ATTENTION : je ne mets jamais de contenu devant être visible en dehors de la balise fermante body ! --> 
+
+</html>
