@@ -6,7 +6,10 @@
         propriété: valeur ;
 } */
 
-p {
+
+
+/* On peux sélectionner deux éléments en même temps (p et pre) avec une virgule (p, pre dans l'exemple ci-desssous)*/
+p, pre {
     color:blue;
 }
 
@@ -20,6 +23,10 @@ p {
         ->notation avec mots clés -> red, green, bleu ... 
 */
 
+
+span {
+    color: darkgreen;
+}
 
 
 
