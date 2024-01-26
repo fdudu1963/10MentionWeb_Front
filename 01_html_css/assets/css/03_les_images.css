@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(151, 150, 150); /* La couleur de fond du corps de la page*/
+    text-align: center;
+
+}
+
+h1 {
+    color: red; /* La couleur du texte des balises <h1> en red */
+    text-transform: uppercase; /* Transforme le texte des balises en majuscules */
+}
+
+h2 {
+    color: antiquewhite;
+    font-style: italic; /* Donner un style italique au texte*/
+
+}
+
+img {
+    width: 300px; /* Défini la largeur de TOUTES les images à 300 pixels de large */
+    height: 300px; /* Défini la hauteur de TOUTES les images à 300 pixels de hauteur - ATTENTION A L'HOMOTHECIE   */
+
+
+    border-style: groove; /* Défini le style de la bordure en groove (rainure en français) */
+    border-width: 5px; /* Défini l'épaisseur de la bordure */
+    border-color: azure; /* Défini la couleur de la bordure */
+    /*la ligne ci-dessous équivaut aux 3 lignes du dessus (conseillé car cela fait gagner des lignes de code)
+    border: groove 10px azure;
+    */
+
+    border-radius: 5%; /* Arrondit tous les coins de l'image avec un rayon de 5% */
+    /*   border-radius: 5% 20% 2% 40%;     Dans ce cas, arrondit les coins de l'image avec un rayon de 5% en haut a gauche, 20% en haut à droite, bref : dans le sens des aiguilles d'une montre  */
+
+    margin-right: 50px; /* Ajoute une marge à droite des l'images de 50 px. Cela crée de l'espace entre l'image et d'autres élément voisins sur le coté droit */
+    margin: 0 50px 0 0; /* Equivaut à la ligne du dessus */
+    /* 
+        La propriété CSS margin est utilisée pour définir l'espace autour d'un élément. Elle contrôle l'espace entre les bords de l'élément et les éléments voisins. Elle peut prendre jusqu'à quatre valeurs  qui définissent l'espace autour de l'élément dans l'ordre suivant : haut, droite, bas, gauche.
+        La sytaxe est =>  margin: top right bottom left;
+
+        - margin: 10px;  marge de 10 pixels sur tous les côtés 
+        - margin: 10px 20px; marge de 10 pixels en haut/bas, 20 pixels à gauche/droite 
+        - margin: 10px 20px 30px; marge de 10 pixels en haut, 20 pixels à gauche/droite, 30 pixels en bas 
+        - margin: 10px 20px 30px 40px; marge de 10 pixels en haut, 20 pixels à droite, 30 pixels en bas, 40 pixels à gauche. 
+    */
+}
+
+
+    figcaption, p {
+        color: red;
+    }
+
+
+    div {
+        height: 1000px;
+        background-image: url(../images/chien-Husky-assis-sur-herbe.jpg); /* Défini l'image de fond de div */
+        background-repeat: no-repeat; /* Empèche la répétition de l'image de fond */
+        background-size: cover; /* Ajuste la taille de l'image de fond pour COUVRIR l'ensemble de l'élément dans le div */
+
+        padding: 50px; /* Ajoute une marge INTERNE (espace intérieur de 50 px à l'élément */
+        margin: 50px;  /* Ajoute une marge EXTERNE (espace extéieur de 50 px à l'élément */
+    }
+
+    div p {
+        background-color: rgba(5, 19, 21, .6); /*le "a" de "rgba" est la valeur de transparence - les valeurs vont de 0 à 1) */
+        padding: 50px ; /* ajoute une marge intérieure de 50 px dans le div */
+        border-radius: 30px; /* ajoute des cions arrondis de 30 px dans la div */
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
