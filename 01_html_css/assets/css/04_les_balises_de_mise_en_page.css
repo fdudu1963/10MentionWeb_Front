@@ -1,0 +1,65 @@
+/*  Feuille de style pour la page : balises de mise en page  */
+
+body {
+    background-color: #EEEDEB;
+}
+
+
+div.navigation {
+    text-align: center;
+    border: solid 2px #3c0753;
+    padding: 20px;
+}
+
+
+/* NOTE a moi-meme : h1 correspond au titre "les balises de mise en page" */
+h1 {
+    text-transform: uppercase;
+    color: #3c0753;
+    font-size: 50px;
+}
+
+
+/* NOTE a moi-meme : concerne les 3 liens du haut de la page ---> le coup du widht à 33% est vraiment pratique */
+.navigation a {
+    background-color: #D9A9DB;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;   /* NOTE a moi-meme : à permis de faire que les 3 liens se sont transformés du mode "inline" au mode "block" */ 
+    width: 33%;
+    border-radius: 10px;
+}
+
+
+.navigation a:hover {
+    background-color: black; /* NOTE a moi-meme : à permis de faire que les 3 liens change de couleur en noir au survole de la sourie*/  
+}
+
+
+div.main {
+    border: 2px solid #3c0753;
+    padding: 20px 50px;
+    margin-top: 10px;    /* NOTE a moi-meme : à permis de séparer les 2 cadres de 10 pixels entre eux*/ 
+}
+
+
+div.section1 {
+        text-align: center;     /* NOTE a moi-meme : à permis de centrer l'image et le texte lorem*/ 
+}
+
+
+div.section1 img {
+    border-radius: 20px;   /* NOTE a moi-meme : à permis de faire des coins ronds sur l'image*/  
+}
+
+
+
+
+
+
+
+
+
+
+

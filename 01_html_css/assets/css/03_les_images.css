@@ -15,6 +15,9 @@ h2 {
 
 }
 
+
+
+
 img {
     width: 300px; /* Défini la largeur de TOUTES les images à 300 pixels de large */
     height: 300px; /* Défini la hauteur de TOUTES les images à 300 pixels de hauteur - ATTENTION A L'HOMOTHECIE   */
@@ -41,7 +44,7 @@ img {
         - margin: 10px 20px 30px; marge de 10 pixels en haut, 20 pixels à gauche/droite, 30 pixels en bas 
         - margin: 10px 20px 30px 40px; marge de 10 pixels en haut, 20 pixels à droite, 30 pixels en bas, 40 pixels à gauche. 
     */
-}
+    }
 
 
     figcaption, p {
@@ -68,11 +71,33 @@ img {
     }
 
 
+/* style pour la classe nommée "imageCheval" - (NOTE : un point "." veut dire "class" et un "#" veut dire "id") */
+
+    /* la propriété transition permet de spécifier un temps de mise à l'échelle indiqué dans la propriété transform */
+    .imageCheval {
+        transition: 1s;
+    }
+
+    /* La propriété transforme avec la fonction scale(), permet de modifier léchelle d'un élément en modifiant sa taille. La fonction scale() prend un argument  qui est le facteur d'échelle.
+    (Dans notre exemeple, l'agrandissement à 120% lors du survole de la sourie des images appartenant à la class "imageCheval" indiquée dans le fichier html dans la balise img) */
+    .imageCheval:hover {
+        transform: scale(120%);
+    }
 
 
+/* style pour la classe nommée "imageDauphin" */
 
+    .imageDauphin {
+        
+        display: block;  /* Défini l'affichage en tant que bloc et pas inline (retour à la ligne après chanque image) */
+        margin: 0 auto;
+        transition: transform 1s;  /* on a indiqué de faire la transsition seulement sur la propriété transform (voir ligne ci-dessous */
+    }
 
+    .imageDauphin:hover {
+        transform: rotate(30deg) scale(50%);  /* Fait tourner l'image de 30 degrés et la réduit de 50% lorsqu'elle est survollée*/
 
+    }
 
 
 
