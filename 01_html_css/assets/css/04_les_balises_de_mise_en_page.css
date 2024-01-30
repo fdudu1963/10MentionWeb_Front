@@ -44,14 +44,67 @@ div.main {
 }
 
 
-div.section1 {
-        text-align: center;     /* NOTE a moi-meme : à permis de centrer l'image et le texte lorem*/ 
+div.section1, div.section2 {
+        text-align: center;
 }
-
 
 div.section1 img {
     border-radius: 20px;   /* NOTE a moi-meme : à permis de faire des coins ronds sur l'image*/  
 }
+
+div.section2 {
+    text-align: center;   /* NOTE a moi-meme : à centré les 3 paragraphes après CSS */
+    background-image: url(../images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+div.section2 p {
+    display: inline-block;
+    border: solid 2px #3c0753;
+    width: 33%;
+    padding: 20px;
+    background-color: black;
+    text-align: left;
+}
+
+
+div.piedDePage {
+    border: solid 2px #3c0753;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+
+div.piedDePage ul {
+    display: inline-block;
+    width: 30%;
+    list-style: none;  /* enlève les puces */
+}
+
+div.piedDePage ul li {
+    margin-bottom: 20px;
+}
+
+div.piedDePage ul li a {
+    color: #3c0753;
+    background-color: #D9A9DB;
+    padding: 8px 12px;
+    border-radius: 3px;  /* coins ronds */
+    font-weight: bold;
+    text-decoration: none;   /* enlève les surlignes des liens */
+}
+
+
+
+
+
+
+
+
 
 
 
