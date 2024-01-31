@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Les balises sémantiques">
+    <link rel="stylesheet" type="text/css" href="assets/css/05_les_balises_semantique.css">
+    <title>Les balises sémantiques</title>
+</head>
+<body>
+
+
+
+
+
+
+
+    
+<header>  <!-- L’élément <header> forme le bloc d’en-tête ou le “chapeau” du document. Il est utilisé en tant qu’un conteneur pour regrouper les éléments de saisie et de navigation (logo, menu de navigation, formulaire de recherche, etc.). --> 
+    <h3>header</h3>  
+    <div class="navigation" >
+        <h1>Les balises sémantiques</h1>
+</header>
+
+
+
+
+
+
+
+
+<br><br>
+
+<nav>    <!-- L’élément <nav> forme le bloc principal des liens de navigation. Notez que ce ne sont pas tous les liens du document HTML, qui peuvent être placés dans l’élément <nav>, il ne peut inclure que de gros blocs de navigation. -->
+        <h3>nav</h3>
+        <a href="#">lien 1</a>    <!-- NOTE : si pas de lien à mettre, mettre un # obligatoirement -->
+        <a href="#">lien 2</a>
+        <a href="#">lien 3</a>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<br><br>
+
+<article>   <!-- 1er ARTICLE : L’élément <article> définit un bloc indépendant, dans lequel les enregistrements sont regroupés (articles, publications des blogs, commentaires, etc.).   -->
+<h3>article</h3>
+
+    <div class="main">
+
+        <div class="section1">
+            <h2>ARTICLE 1</h2>
+            <img src="assets/images/jackson-sophat-_t-l5FFH8VA-unsplash.jpg" alt="Symbole d'une balise">
+            <p>Les éléments sémantiques sont une des innovations significatives en HTML5. Avant leur apparition, toutes les balises des pages Web étaient créées à l'aide des éléments div, auxquels étaient attribués des identificateurs (id) ou des classes (class). Pour placer des panneaux latéraux, des en-têtes, des pieds de page, des éléments de navigation et d'autres blocs de construction, des blocs div avec les valeurs appropriées (par exemple, div = "footer") ont été utilisés.
+            HTML5 introduit de nouveaux éléments sémantiques pour la structuration, le regroupement du contenu et le balisage du contenu du texte. Ils décrivent clairement quel contenu ils ont (il y avait div id = "footer", devenu footer).</p>
+    </div>
+</article>
+
+
+
+
+
+
+
+<br><br>
+
+<article>   <!-- 2eme ARTICLE : L’élément <article> définit un bloc indépendant, dans lequel les enregistrements sont regroupés (articles, publications des blogs, commentaires, etc.).   -->
+<h3>article</h3>
+
+        <!-- formule pour avoir le tout :   .section2>h2+p*3       -->
+        <div class="section2">
+            <h2>ARTICLES 2, 3 et 4</h2>
+
+            <p>Qu'est-ce que le HTML Sémantique ?<br>
+                <br>
+                Mais d’abord, que signifie le mot sémantique ?<br>
+                Pour faire court et simple, la définition de sémantique est: « qui concerne le sens, la signification ».<br>
+                <br>
+                C’est dans cet esprit qu’il est utilisé dans le SEO on-page ( Le SEO on-page consiste à optimiser les pages d'un site web pour qu'elles soient mieux positionnées dans les résultats de la SERP = Le terme de SERP (Search Engine Result Page) désigne la page des résultats d'un moteur de recherche genre Google, affichée suite à la saisie d'une requête dans le formulaire de recherche).<br>
+                <br>
+                En effet, le HTML sémantique, également connu sous le nom de balisage sémantique, désigne l'utilisation de balises HTML qui transmettent la signification - ou la valeur sémantique - du contenu qu'elles renferment.<br>
+                <br>
+                En ajoutant des balises sémantiques HTML à vos pages, vous fournissez des informations supplémentaires qui définissent les rôles et l'importance relative des différentes parties de votre page.<br>
+                <br>
+                Au contraire, le HTML non sémantique utilise des balises qui ne véhiculent pas directement de sens.<br>
+                <br>
+                (sources : https://fr.semrush.com/blog/balises-structurelles-html-semantique/)</p>
+
+            <h4>Les éléments sémantiques sont une des innovations significatives en HTML5.<br>
+                <br>
+                Avant leur apparition, toutes les balises des pages Web étaient créées à l'aide des éléments div, auxquels étaient attribués des identificateurs (id) ou des classes (class).<br>
+                <br>Pour placer des panneaux latéraux, des en-têtes, des pieds de page, des éléments de navigation et d'autres blocs de construction, des blocs div avec les valeurs appropriées (par exemple, div = "footer") ont été utilisés.
+            HTML5 introduit de nouveaux éléments sémantiques pour la structuration, le regroupement du contenu et le balisage du contenu du texte. Ils décrivent clairement quel contenu ils ont (il y avait div id = "footer", devenu footer).</h4>
+
+            <p>Liens de vulgarisation :<br><br>
+                https://developer.mozilla.org/fr/docs/Glossary/Semantics<br><br>
+                https://fr.semrush.com/blog/balises-structurelles-html-semantique/<br><br>
+                https://ronan-hello.fr/series/html/balises-semantiques-html<br><br>
+                https://fr.w3docs.com/apprendre-html/les-elements-semantiques-html5.html<br>-
+                pas mal et avec des exemples concrets!!</p>
+         </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+<br><br>
+
+<footer>    <!--  L'élément <footer> forme le pied de la section ou de l'élément racine dans lequel il se trouve. En règle générale, il contient des informations sur les droits d'auteur, les coordonnées, les liens de navigation, etc.  -->
+    <h3>footer</h3>
+
+    <div class="piedDePage">
+     
+        <!-- ul*3>li*3>a{lien $}   =   pour avoir les lignes ci-dessous     =     listes classée et non classées -->
+        <ul>
+            <li><a href="">lien 1</a></li>
+            <li><a href="">lien 2</a></li>
+            <li><a href="">lien 3</a></li>
+        </ul>
+        <ul>
+            <li><a href="">lien 1</a></li>
+            <li><a href="">lien 2</a></li>
+            <li><a href="">lien 3</a></li>
+        </ul>
+        <ul>
+            <li><a href="">lien 1</a></li>
+            <li><a href="">lien 2</a></li>
+            <li><a href="">lien 3</a></li>
+        </ul>
+
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
