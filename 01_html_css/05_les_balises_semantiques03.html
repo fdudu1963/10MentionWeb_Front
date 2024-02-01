@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Balises div avec leur classe - Balises sémantiques</title>
+    <style>
+      .header {                 /* Classe "header" avec ses caractéristiques qui sera ensuite appelée dans un "div" */
+        height: 40px;
+        width: 500px;
+        text-align: center;
+        padding: 20px 20px 0;
+        background: #e1e1e1;
+      }
+
+      .main-content {          /* Classe "main-content" avec ses caractéristiques qui sera ensuite appelée dans un "div" */
+        height: 150px;
+        width: 500px;
+        padding: 20px;
+        background: #c1bedf;
+      }
+
+      footer {                 /* Balise SEMANTIQUE "footer" avec ses caractéristiques qui sera ensuite appelée simplement entre deux chevrons */
+        padding: 10px 20px;
+        width: 500px;
+        background: #666;
+        color: white;
+      }
+
+      a {
+        color: #00aaff;
+      }
+    </style>
+  </head>
+  <body>
+    <center>  <!--  Cette balise fonctionne encore mais son utilisation est décinseillée -->
+    <div class="header">Header / Menu</div>   <!-- Balise "div" avec la classe "header" -->
+    <div class="main-content">                <!-- Balise "div" avec la classe "main-content" -->
+      <h1>Contenu principal</h1>
+      <p>C'est un paragraphe.</p>
+    </div>
+    <footer>                                  <!-- Balise SEMANTIQUE footer pour pied de page" -->
+      <p>Company © W3docs. All rights reserved.</p>
+    </footer>
+  </center>
+  </body>
+</html>
+
+
+
+
+
+
+
+

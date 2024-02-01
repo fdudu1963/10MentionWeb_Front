@@ -51,6 +51,7 @@ div.main {
     border: 2px solid #3c0753;
     padding: 20px 50px;
     margin-top: 10px;    /* NOTE a moi-meme : à permis de séparer les 2 cadres de 10 pixels entre eux*/ 
+    text-align: center;
 }
 
 
