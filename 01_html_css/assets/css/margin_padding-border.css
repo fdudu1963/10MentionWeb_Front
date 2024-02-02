@@ -11,7 +11,7 @@ div {
     height: 500px;
     width: 500px;
     background-color: pink;
-    margin: 50px auto;
+
 
     /* l'ajout de bordure (cadre) augmente la taille totale de l'élément */
     border: 20px solid black;
@@ -34,7 +34,7 @@ div {
 */
 
 /*  
-    Afin déviter la modification de la taille totale d'un élément par les bordures et les marges internes, on utilise la propriété box-sizing avec la valeur "border-box", cela permet d'inclure à la fois les bordures et le padding dans la taille totale de lélément.
+    Afin déviter la modification de la taille totale d'un élément par les bordures et les marges internes, on utilise la propriété box-sizing avec la valeur "border-box", cela permet d'inclure à la fois les bordures et le padding dans la taille totale de l'élément.
 
     La propriété box-sizing en CSS permet de définir comment la taille totale d'un élément est calculée.
     Elle peut avoir deux valeurs: 

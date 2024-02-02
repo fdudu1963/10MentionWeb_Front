@@ -1,0 +1,142 @@
+/*  Feuille de style pour la page : balises de mise en page  */
+
+body {
+    background-color: #EEEDEB;
+}
+
+
+div.navigation {
+    text-align: center;
+    border: solid 2px #3c0753;
+    padding: 20px;
+}
+
+
+/* NOTE a moi-meme : h1 correspond au titre "les balises de mise en page" */
+h1 {
+    text-transform: uppercase;
+    color: #3c0753;
+    font-size: 50px;
+}
+
+/* NOTE a moi-meme : h3 correspond au style de "balises sémantiques" */
+h3 {
+    text-transform: uppercase;
+    color: #ff0000;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+
+
+/* NOTE a moi-meme : concerne les 3 liens du haut de la page ---> le coup du widht à 33% est vraiment pratique */
+.navigation a {
+    background-color: #D9A9DB;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;   /* NOTE a moi-meme : à permis de faire que les 3 liens se sont transformés du mode "inline" au mode "block" */ 
+    width: 33%;
+    border-radius: 10px;
+}
+
+
+.navigation a:hover {
+    background-color: black; /* NOTE a moi-meme : à permis de faire que les 3 liens change de couleur en noir au survole de la sourie*/  
+}
+
+
+div.main {
+    border: 2px solid #3c0753;
+    padding: 20px 50px;
+    margin-top: 10px;    /* NOTE a moi-meme : à permis de séparer les 2 cadres de 10 pixels entre eux*/ 
+}
+
+
+div.section1, div.section2 {
+    text-align: center;
+}
+
+div.section1 img {
+    border-radius: 20px;   /* NOTE a moi-meme : à permis de faire des coins ronds sur l'image*/  
+}
+
+div.section2 {
+    text-align: center;   /* NOTE a moi-meme : à centré les 3 paragraphes après CSS */
+    background-image: url(../images/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+div.section2 p {
+    display: inline-block;
+    border: solid 2px #3c0753;
+    width: 33%;
+    padding: 20px;
+    background-color: black;
+    text-align: left;
+}
+
+
+
+div.section2 h4 {     /*  NOTE a moi-meme : h' concernant l'article numero 3  */
+    display: inline-block;
+    border: solid 2px #3c0753;
+    width: 18%;
+    padding: 20px;
+    background-color: black;
+    text-align: left;
+}
+
+
+
+
+
+div.piedDePage {
+    border: solid 2px #3c0753;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+
+div.piedDePage ul {
+    display: inline-block;
+    width: 30%;
+    list-style: none;  /* enlève les puces */
+}
+
+div.piedDePage ul li {
+    margin-bottom: 20px;
+}
+
+div.piedDePage ul li a {
+    color: #3c0753;
+    background-color: #D9A9DB;
+    padding: 8px 12px;
+    border-radius: 3px;  /* coins ronds */
+    font-weight: bold;
+    text-decoration: none;   /* enlève les surlignes des liens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
