@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;     /*  permet de mettre les marges à l'intérieur  -  je pense qu'il vaut mieux mettre ceci SYSTEMATIQUEMENT dans les .css car ainsi les tailles ne seront jamais impactées par les padding (marges) et les border (cadres) */
+}
+
+
+body{
+    background-color: #fff6f6;
+}
+
+h1{
+    text-align: center;
+    color: #c147e9;
+    text-transform: uppercase;
+}
+h2{
+    color: #b31312;
+}
+h3{
+    color: #967e76;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+
+
+div.flex{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    background-color: #cbd285;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #cbd285; 
+}
+
+nav a {
+    color: #333;
+    font-weight: bold;
+}
